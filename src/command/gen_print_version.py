@@ -28,4 +28,4 @@ def save_bingo_tickets_to_pdf(tickets, filename):
     c.save()
 
 if __name__ == '__main__':
-    save_bingo_tickets_to_pdf(generate_multiple_tickets(1000), "example_output.pdf")
+    save_bingo_tickets_to_pdf(generate_multiple_tickets(500), "../../example_output/500_tickets.pdf")
