@@ -4,7 +4,7 @@ This Python script generates random Bingo tickets.
 Each ticket consists of a 3x9 matrix where the numbers are arranged to adhere to the rules of the Bingo game (1-90).
 
 ## Usage
-Make sure you have Python installed on your system. You also need reportlab for generating pdfs.
+Make sure you have Python installed on your system. You also need reportlab (pip package) for generating pdfs.
 Clone or copy the script and run it.
 You can adjust the number of tickets to generate by modifying the num_tickets_to_generate variable.
 ## Functions
