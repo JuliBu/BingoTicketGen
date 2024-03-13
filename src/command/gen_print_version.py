@@ -6,10 +6,10 @@ from bingo_ticket.gen_ticket import generate_multiple_tickets
 
 def save_bingo_tickets_to_pdf(tickets, filename):
     c = canvas.Canvas(filename, pagesize=letter)
-    c.setFont("Helvetica", 25)
 
     top_y = 730
     for i, ticket in enumerate(tickets, start=1):
+        c.setFont("Helvetica", 25)
         start_y = top_y - ((i-1) % 5) * 140
         c.drawString(100, start_y + 5, f" B I N G O - Ticket {i}:")
         c.setLineWidth(3)
